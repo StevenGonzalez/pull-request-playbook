@@ -8,14 +8,14 @@ A practical, opinionated playbook for developers who want to level up their pull
 
 ## 📖 Table of Contents
 
-- [Philosophy](#philosophy)
-- [Quick Start](#quick-start)
-- [The Anatomy of a Great PR](#the-anatomy-of-a-great-pr)
-- [Templates](#templates)
-- [Examples](#examples)
-- [Anti-Patterns](#anti-patterns)
-- [For Reviewers](#for-reviewers)
-- [Advanced Topics](#advanced-topics)
+- [Philosophy](#-philosophy)
+- [Quick Start](#-quick-start)
+- [The Anatomy of a Great PR](#-the-anatomy-of-a-great-pr)
+- [Templates](#-templates)
+- [Examples](#-examples)
+- [Anti-Patterns](#-anti-patterns)
+- [For Reviewers](#-for-reviewers)
+- [Advanced Topics](#-advanced-topics)
 
 ---
 
