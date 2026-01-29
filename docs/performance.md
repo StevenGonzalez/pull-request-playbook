@@ -1,4 +1,4 @@
-# ⚡ Performance PRs
+# Performance PRs
 
 Optimizing code requires proof, not just intuition.
 

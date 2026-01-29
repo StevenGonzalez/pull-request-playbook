@@ -1,4 +1,4 @@
-# 🥞 Stacking PRs
+# Stacking PRs
 
 Stacked PRs (or Dependent PRs) allow you to break large changes into reviewable chunks without blocking your own progress.
 

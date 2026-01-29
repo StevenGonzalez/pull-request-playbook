@@ -1,4 +1,4 @@
-# ⚔️ Handling Conflicts
+# Handling Conflicts
 
 Disagreements in code review are normal. Here's how to handle them professionally.
 

@@ -1,4 +1,4 @@
-# 🚚 Migrations & Large Refactors
+# Migrations & Large Refactors
 
 Renaming a core component? Moving to a new folder structure? Upgrading a framework?
 These changes are noisy and scary.

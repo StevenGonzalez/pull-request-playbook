@@ -1,4 +1,4 @@
-# 🛡️ Security PRs
+# Security PRs
 
 Handling security fixes requires discretion and thoroughness.
 

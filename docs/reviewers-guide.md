@@ -1,10 +1,10 @@
-# 👁️ The Reviewer's Guide
+# The Reviewer's Guide
 
 Code review is not about finding bugs (that's what tests are for). It's about maintaining code quality, sharing knowledge, and ensuring maintainability.
 
 ---
 
-## The Golden Rule 🌟
+## The Golden Rule
 **Review the code, not the person.**
 Be kind, specific, and constructive.
 
@@ -36,7 +36,7 @@ Look at the logic.
 
 ---
 
-## 🚦 Approval Tiers
+## Approval Tiers
 
 | State | Meaning |
 |-------|---------|
@@ -49,7 +49,7 @@ Do not hold a PR hostage for perfection. If the code is better than it was befor
 
 ---
 
-## 🚫 What NOT to Review (Let Automation do it)
+## What NOT to Review (Let Automation do it)
 Don't waste time commenting on:
 - Semicolons
 - Indentation
@@ -60,4 +60,4 @@ Don't waste time commenting on:
 
 ---
 
-[⬅️ Back to README](../README.md)
+[Back to README](../README.md)

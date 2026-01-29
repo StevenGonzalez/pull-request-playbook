@@ -1,4 +1,4 @@
-# 💬 Comment Templates
+# Comment Templates
 
 Phrasing matters. Here are templates for common review situations that differ in tone.
 

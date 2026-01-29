@@ -1,6 +1,6 @@
 # Performance Pull Request Template
 
-## 🚀 Optimization Target
+## Optimization Target
 <!--
   What specifically are we optimizing?
   - Page load time?
@@ -8,7 +8,7 @@
   - Memory usage?
 -->
 
-## 📊 Benchmarks
+## Benchmarks
 <!--
   You MUST include Before/After metrics.
   
@@ -18,7 +18,7 @@
   | Bundle Size | 2.5MB | 2.1MB | -16% |
 -->
 
-## 🛠 Strategy
+## Strategy
 <!--
   How was this achieved?
   - Algorithm change?
@@ -26,7 +26,7 @@
   - Lazy loading?
 -->
 
-## ⚠️ Risks
+## Risks
 <!--
   Does this optimization introduce complexity or potential race conditions?
 -->

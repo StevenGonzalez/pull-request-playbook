@@ -1,19 +1,19 @@
 # Security Pull Request Template
 
-## 🛡️ Vulnerability Fixed
+## Vulnerability Fixed
 <!--
   Describe the security issue (safely). 
   Reference the CVE or internal ticket.
 -->
 
-## 🔐 Solution
+## Solution
 <!--
   How does this fix the vulnerability?
   Did you sanitize input?
   Did you upgrade a package?
 -->
 
-## 🧪 Security Verification
+## Security Verification
 <!--
   How did you verify the fix?
   - [ ] Reproduced exploit (safely)
@@ -21,7 +21,7 @@
   - [ ] Ran static analysis tools
 -->
 
-## ⚠️ Sensitivity
+## Sensitivity
 <!--
   Is this information public yet? 
   Are there any special handling instructions?

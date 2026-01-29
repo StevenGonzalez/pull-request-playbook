@@ -1,4 +1,4 @@
-# 🏰 Monorepo PRs
+# Monorepo PRs
 
 In a Monorepo (multiple projects in one repo), PRs have unique challenges.
 

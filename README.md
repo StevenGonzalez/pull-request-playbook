@@ -1,4 +1,4 @@
-# 🎯 Pull Request Playbook
+# Pull Request Playbook
 
 > **The definitive guide to writing pull requests that get merged faster and reviewed better.**
 
@@ -6,20 +6,20 @@ A practical, opinionated playbook for developers who want to level up their pull
 
 ---
 
-## 📖 Table of Contents
+## Table of Contents
 
-- [Philosophy](#-philosophy)
-- [Quick Start](#-quick-start)
-- [The Anatomy of a Great PR](#-the-anatomy-of-a-great-pr)
-- [Templates](#-templates)
-- [Examples](#-examples)
-- [Anti-Patterns](#-anti-patterns)
-- [For Reviewers](#-for-reviewers)
-- [Advanced Topics](#-advanced-topics)
+- [Philosophy](#philosophy)
+- [Quick Start](#quick-start)
+- [The Anatomy of a Great PR](#the-anatomy-of-a-great-pr)
+- [Templates](#templates)
+- [Examples](#examples)
+- [Anti-Patterns](#anti-patterns)
+- [For Reviewers](#for-reviewers)
+- [Advanced Topics](#advanced-topics)
 
 ---
 
-## 🎭 Philosophy
+## Philosophy
 
 Great pull requests are not just about code - they're about **communication**, **respect for reviewers' time**, and **enabling better software**. The best PRs share these characteristics:
 
@@ -40,7 +40,7 @@ Before requesting review: tests pass, linting is clean, conflicts are resolved, 
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 **New to pull requests?** Start here:
 
@@ -54,20 +54,20 @@ Before requesting review: tests pass, linting is clean, conflicts are resolved, 
 
 ---
 
-## 🔬 The Anatomy of a Great PR
+## The Anatomy of a Great PR
 
 A great pull request has six essential components:
 
-### 1. **The Title** 📌
+### 1. **The Title**
 - Clear, specific, and scannable
 - Follows a consistent format (e.g., `[Type] Brief description`)
 - Examples:
-  - ✅ `[Feature] Add user authentication with OAuth2`
-  - ✅ `[Bug] Fix memory leak in WebSocket connection handler`
-  - ❌ `Update stuff` (too vague)
-  - ❌ `Fix issue #1234` (not self-documenting)
+  - `[Feature] Add user authentication with OAuth2`
+  - `[Bug] Fix memory leak in WebSocket connection handler`
+  - `Update stuff` (too vague)
+  - `Fix issue #1234` (not self-documenting)
 
-### 2. **The Description** 📝
+### 2. **The Description**
 The most critical part. Should include:
 - **What**: What changed?
 - **Why**: Why was this change necessary?
@@ -77,34 +77,34 @@ The most critical part. Should include:
 - **Breaking Changes**: Any backwards incompatibilities?
 - **Related Issues**: Links to tickets, discussions, or docs
 
-### 3. **The Commits** 💾
+### 3. **The Commits**
 - Atomic and logical (each commit = one logical change)
 - Clear commit messages following [Conventional Commits](https://www.conventionalcommits.org/)
 - Easy to bisect if things go wrong
 
-### 4. **The Diff** 🔍
+### 4. **The Diff**
 - Focused on one concern
 - No unrelated formatting changes
 - No commented-out code or debug logs
 - Readable and scannable
 
-### 5. **The Tests** ✅
+### 5. **The Tests**
 - New features include tests
 - Bug fixes include regression tests
 - All tests passing in CI
 - Coverage metrics maintained or improved
 
-### 6. **The Context** 🌐
+### 6. **The Context**
 - Links to related PRs, issues, or documentation
 - Screenshots or recordings for visual changes
 - Performance benchmarks for optimization work
 - Migration guide for breaking changes
 
-📚 **Deep Dive**: Read the complete [Anatomy Guide](docs/anatomy.md) for detailed explanations and examples.
+**Deep Dive**: Read the complete [Anatomy Guide](docs/anatomy.md) for detailed explanations and examples.
 
 ---
 
-## 📋 Templates
+## Templates
 
 Copy-paste templates for common PR types:
 
@@ -121,7 +121,7 @@ Copy-paste templates for common PR types:
 
 ---
 
-## 💡 Examples
+## Examples
 
 Learn from real-world examples with detailed annotations:
 
@@ -132,31 +132,31 @@ Learn from real-world examples with detailed annotations:
 
 ---
 
-## 🚫 Anti-Patterns
+## Anti-Patterns
 
 Common mistakes and how to fix them:
 
 ### The "God PR" 
-❌ **Problem**: 3,000 lines changed across 47 files  
-✅ **Solution**: Break into smaller, focused PRs
+**Problem**: 3,000 lines changed across 47 files  
+**Solution**: Break into smaller, focused PRs
 
 ### The "Mystery PR"
-❌ **Problem**: No description, title is "fix stuff"  
-✅ **Solution**: Write clear title and comprehensive description
+**Problem**: No description, title is "fix stuff"  
+**Solution**: Write clear title and comprehensive description
 
 ### The "Kitchen Sink"
-❌ **Problem**: Includes refactoring, new feature, and bug fixes  
-✅ **Solution**: One concern per PR
+**Problem**: Includes refactoring, new feature, and bug fixes  
+**Solution**: One concern per PR
 
 ### The "WIP Forever"
-❌ **Problem**: Marked as draft for weeks with no updates  
-✅ **Solution**: Either finish it or close it
+**Problem**: Marked as draft for weeks with no updates  
+**Solution**: Either finish it or close it
 
-📚 **Full List**: See [complete anti-patterns guide](docs/anti-patterns.md) with examples and fixes.
+**Full List**: See [complete anti-patterns guide](docs/anti-patterns.md) with examples and fixes.
 
 ---
 
-## 👀 For Reviewers
+## For Reviewers
 
 Great reviews are just as important as great PRs:
 
@@ -169,7 +169,7 @@ Great reviews are just as important as great PRs:
 
 ---
 
-## 🎓 Advanced Topics
+## Advanced Topics
 
 Level up your PR game:
 
@@ -183,21 +183,21 @@ Level up your PR game:
 
 ---
 
-## 📄 License
+## License
 
-MIT © 2026 Steven Gonzalez
+MIT (c) 2026 Steven Gonzalez
 
 ---
 
-## 🌟 Why This Matters
+## Why This Matters
 
 Every year, developers spend **millions of hours** in code review. A great pull request:
-- ✅ Gets reviewed faster (often same-day)
-- ✅ Receives better, more thoughtful feedback
-- ✅ Ships with fewer bugs
-- ✅ Creates better documentation
-- ✅ Builds trust with your team
-- ✅ Accelerates your career
+- Gets reviewed faster (often same-day)
+- Receives better, more thoughtful feedback
+- Ships with fewer bugs
+- Creates better documentation
+- Builds trust with your team
+- Accelerates your career
 
 **Writing great PRs is a skill** - and like any skill, it can be learned, practiced, and mastered.
 
@@ -205,8 +205,8 @@ Every year, developers spend **millions of hours** in code review. A great pull 
 
 <div align="center">
 
-**⭐ Star this repo** if you found it helpful!
+**Star this repo** if you found it helpful!
 
-Made with ❤️ for the developer community
+Made with love for the developer community
 
 </div>

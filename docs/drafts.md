@@ -1,4 +1,4 @@
-# 📝 Draft PRs
+# Draft PRs
 
 Draft Pull Requests (or Work In Progress - WIP) are a powerful tool for collaboration *before* the code is finished.
 

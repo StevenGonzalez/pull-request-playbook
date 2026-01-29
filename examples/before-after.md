@@ -1,10 +1,10 @@
-# 🔄 Before & After: The Makeover
+# Before & After: The Makeover
 
 See the difference between a "Lazy PR" and a "Pro PR" for the exact same code change.
 
 ---
 
-### ❌ The "Lazy" PR (Bad)
+### The "Lazy" PR (Bad)
 
 **Title**: `fix styles`
 
@@ -23,7 +23,7 @@ See the difference between a "Lazy PR" and a "Pro PR" for the exact same code ch
 
 ---
 
-### ✅ The "Pro" PR (Good)
+### The "Pro" PR (Good)
 
 **Title**: `[UI] Align Login Page with 2026 Design System`
 
@@ -45,5 +45,5 @@ Updates the Login Page input fields and buttons to match the new Figma Design Sy
 
 ---
 
-### 💡 The Takeaway
+### The Takeaway
 The code might be identical, but the **Good PR** gets reviewed and merged in 10 minutes with praise. The **Bad PR** sits for 3 days and gets confused questions.
