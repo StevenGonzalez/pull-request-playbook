@@ -19,12 +19,12 @@ Your title is the first thing a reviewer sees. It should be specific, searchable
 
 | Status | Title | Why |
 |:---:|---|---|
-| Good | `[Feature] Add Google OAuth2 login provider` | Clear type, specific feature |
-| Good | `[Bug] (API) Fix null pointer in user serialization` | Scoped, describes the fix |
-| Good | `[Refactor] Move utility functions to shared lib` | Describes the action taken |
-| Bad | `Update login` | Too vague. Update what? |
-| Bad | `Fix bug` | Which bug? |
-| Bad | `WIP` | Tells me nothing about the content |
+| ✅ | `[Feature] Add Google OAuth2 login provider` | Clear type, specific feature |
+| ✅ | `[Bug] (API) Fix null pointer in user serialization` | Scoped, describes the fix |
+| ✅ | `[Refactor] Move utility functions to shared lib` | Describes the action taken |
+| ❌ | `Update login` | Too vague. Update what? |
+| ❌ | `Fix bug` | Which bug? |
+| ❌ | `WIP` | Tells me nothing about the content |
 
 ---
 
@@ -52,7 +52,7 @@ How can the reviewer verify this?
 > - *Manual test: Logged in with a test account on staging*
 > - *Tested failure case: Network disconnect during handshake*
 
-### Pro Tip: Use Visuals
+### Pro Tip: Use Visuals 📸
 If your PR changes the UI, **screenshots or screen recordings are mandatory**.
 - **Before/After** side-by-side images are incredibly helpful.
 - **GIFs/Videos** for interactions/animations.
@@ -65,14 +65,14 @@ Commits tell the history of your changes.
 
 ### Atomic Commits
 Each commit should do **one thing** and do it well.
-- `Add user model`
-- `Create API endpoint for user creation`
-- `Update documentation`
+- ✅ `Add user model`
+- ✅ `Create API endpoint for user creation`
+- ✅ `Update documentation`
 
 Avoid "Kitchen Sink" commits:
-- `More work`
-- `Fix stuff` (which stuff?)
-- `Commit 1`
+- ❌ `More work`
+- ❌ `Fix stuff` (which stuff?)
+- ❌ `Commit 1`
 
 ### Interactive Rebase is Your Friend
 Before submitting, clean up your history. Squash typos (`Fix typo`, `oops`) into the relevant commits.
@@ -124,4 +124,4 @@ Before you click "Create Pull Request":
 
 ---
 
-[Back to README](../README.md)
+[⬅️ Back to README](../README.md)

@@ -12,7 +12,7 @@ Even well-intentioned developers fall into these traps. Recognizing these anti-p
 - Blocks other work (merge conflicts).
 - Reviewers will procrastinate reviewing it.
 
-**Solution**:
+**✅ Solution**:
 - **Feature Flag it**: Merge the backend first, then the frontend.
 - **Stacking**: Break it into 3 dependent PRs (Part 1, Part 2, Part 3).
 - **Atomic Commits**: If you can't break the PR, at least ensure every commit is clean and reviewable one-by-one.
@@ -28,7 +28,7 @@ Even well-intentioned developers fall into these traps. Recognizing these anti-p
 - Wastes time asking "What does this do?".
 - Future maintainers won't know why this change happened.
 
-**Solution**:
+**✅ Solution**:
 - Use the [PR Templates](../templates/).
 - Always answer: **What** changed, **Why** it changed, and **How** to test it.
 
@@ -43,7 +43,7 @@ Even well-intentioned developers fall into these traps. Recognizing these anti-p
 - If the Login Feature has a bug, you have to revert the *fixes* and *upgrades* too.
 - Makes the diff noisy and hard to read.
 
-**Solution**:
+**✅ Solution**:
 - **One Concern Per PR**.
 - If you see a typo, fix it in a separate valid branch/PR, or at least a separate commit that is clearly labeled.
 
@@ -55,7 +55,7 @@ Even well-intentioned developers fall into these traps. Recognizing these anti-p
 - Hides the needle in the haystack.
 - Reviewers can't see the actual logic change.
 
-**Solution**:
+**✅ Solution**:
 - Configure your IDE to respect project settings (EditorConfig).
 - Run the project's linter/formatter *before* starting work.
 - If you want to reformat a legacy file, do it in a dedicated "Refactor/Format" PR first.
@@ -69,7 +69,7 @@ Even well-intentioned developers fall into these traps. Recognizing these anti-p
 - Clutters the PR list.
 - Unclear if it's ready for help or just a backup.
 
-**Solution**:
+**✅ Solution**:
 - Use Draft PRs for *active* work only.
 - If you pause work, close the PR and tag it `wontfix` or `paused`.
 
@@ -85,9 +85,9 @@ const newFunction = () => { ... }
 - "Zombie code" rots. It won't compile in a month.
 - Git has history; you don't need to keep the old code in the file.
 
-**Solution**:
+**✅ Solution**:
 - Delete it. Git will remember it efficiently.
 
 ---
 
-[Back to README](../README.md)
+[⬅️ Back to README](../README.md)
